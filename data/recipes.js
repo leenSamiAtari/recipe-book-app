@@ -111,50 +111,6 @@ export const RECIPES = [
 
 {
   id: '6',
-  title: 'Avocado Toast with Egg',
-  category: 'Breakfast',
-  image: require('../assets/avocado-toast.jpg'),
-  ingredients: [
-    '2 slices whole grain bread',
-    '1 ripe avocado',
-    '1 tsp lemon juice',
-    '1/4 tsp salt',
-    '1/4 tsp black pepper',
-    '2 eggs (poached or fried)',
-    'Chili flakes (optional)'
-  ],
-  instructions: `1. Toast the bread slices until golden.
-2. Mash the avocado with lemon juice, salt, and pepper.
-3. Spread mashed avocado onto each slice of toast.
-4. Top with a freshly poached or fried egg.
-5. Sprinkle chili flakes if desired. Serve immediately.`,
-  prepTime: '15 mins'
-},
-
-{
-  id: '7',
-  title: 'Blueberry Oatmeal',
-  category: 'Breakfast',
-  image: require('../assets/blueberry-oatmeal.jpg'),
-  ingredients: [
-    '1/2 cup rolled oats',
-    '1 cup milk or water',
-    '1/2 cup fresh or frozen blueberries',
-    '1 tbsp maple syrup or honey',
-    '1/4 tsp cinnamon',
-    'Pinch of salt',
-    'Nuts or chia seeds (optional)'
-  ],
-  instructions: `1. In a small saucepan, combine oats, milk, salt, and cinnamon.
-2. Cook over medium heat, stirring often, until thick (5–7 mins).
-3. Stir in blueberries and cook for 2 more minutes.
-4. Pour into a bowl and drizzle with honey or maple syrup.
-5. Top with nuts or chia seeds if desired.`,
-  prepTime: '10 mins'
-},
-
-{
-  id: '8',
   title: 'Classic Beef Burger',
   category: 'Main Course',
   image: require('../assets/beef-burger.jpg'),
@@ -176,35 +132,8 @@ export const RECIPES = [
   prepTime: '25 mins'
 }
 ,
-
 {
-  id: '9',
-  title: 'Chicken Alfredo Pasta',
-  category: 'Main Course',
-  image: require('../assets/chicken-alfredo.jpg'),
-  ingredients: [
-    '200g fettuccine pasta',
-    '2 chicken breasts, sliced',
-    '2 tbsp butter',
-    '2 cloves garlic, minced',
-    '1 cup heavy cream',
-    '1/2 cup grated Parmesan',
-    'Salt and pepper to taste',
-    'Chopped parsley (for garnish)'
-  ],
-  instructions: `1. Cook pasta until al dente, then drain.
-2. In a pan, cook chicken with salt and pepper until browned.
-3. Remove chicken, then melt butter and sauté garlic.
-4. Add cream and bring to a simmer.
-5. Stir in Parmesan until melted.
-6. Return chicken and pasta to pan, toss to coat.
-7. Serve garnished with parsley.`,
-  prepTime: '30 mins'
-}
-,
-
-{
-  id: '10',
+  id: '7',
   title: 'Chocolate Chip Cookies',
   category: 'Desserts',
   image: require('../assets/choco-cookies.jpg'),
@@ -228,7 +157,120 @@ export const RECIPES = [
 },
 
 {
+  id: '8',
+  title: 'Lemon Mint Cooler',
+  category: 'Drinks',
+  image: require('../assets/lemon-mint.jpg'),
+  ingredients: [
+    '2 lemons, juiced',
+    '1 tbsp sugar',
+    '1 cup cold water',
+    'Fresh mint leaves',
+    'Ice cubes',
+    'Lemon slices for garnish'
+  ],
+  instructions: `1. In a glass, mix lemon juice and sugar until dissolved.
+2. Add cold water and stir well.
+3. Add mint leaves and ice cubes.
+4. Garnish with lemon slices and serve chilled.`,
+  prepTime: '5 mins'
+},
+
+{
+  id: '9',
+  title: 'Avocado Toast with Egg',
+  category: 'Breakfast',
+  image: require('../assets/avocado-toast.jpg'),
+  ingredients: [
+    '2 slices whole grain bread',
+    '1 ripe avocado',
+    '1 tsp lemon juice',
+    '1/4 tsp salt',
+    '1/4 tsp black pepper',
+    '2 eggs (poached or fried)',
+    'Chili flakes (optional)'
+  ],
+  instructions: `1. Toast the bread slices until golden.
+2. Mash the avocado with lemon juice, salt, and pepper.
+3. Spread mashed avocado onto each slice of toast.
+4. Top with a freshly poached or fried egg.
+5. Sprinkle chili flakes if desired. Serve immediately.`,
+  prepTime: '15 mins'
+},
+{
+  id: '10',
+  title: 'Mozzarella Sticks',
+  category: 'Appetizers',
+  image: require('../assets/mozzarella-sticks.jpg'),
+  ingredients: [
+    '12 mozzarella sticks',
+    '1/2 cup flour',
+    '2 eggs, beaten',
+    '1 cup breadcrumbs',
+    '1/2 tsp garlic powder',
+    '1/2 tsp Italian seasoning',
+    'Oil for frying',
+    'Marinara sauce for dipping'
+  ],
+  instructions: `1. Coat mozzarella sticks in flour, dip in egg, then breadcrumbs.
+2. Repeat for a thicker crust.
+3. Freeze for 30 minutes.
+4. Heat oil and fry until golden brown (2–3 mins).
+5. Drain and serve with marinara sauce.`,
+  prepTime: '40 mins (includes freezing)'
+}
+,
+
+{
   id: '11',
+  title: 'Chicken Alfredo Pasta',
+  category: 'Main Course',
+  image: require('../assets/chicken-alfredo.jpg'),
+  ingredients: [
+    '200g fettuccine pasta',
+    '2 chicken breasts, sliced',
+    '2 tbsp butter',
+    '2 cloves garlic, minced',
+    '1 cup heavy cream',
+    '1/2 cup grated Parmesan',
+    'Salt and pepper to taste',
+    'Chopped parsley (for garnish)'
+  ],
+  instructions: `1. Cook pasta until al dente, then drain.
+2. In a pan, cook chicken with salt and pepper until browned.
+3. Remove chicken, then melt butter and sauté garlic.
+4. Add cream and bring to a simmer.
+5. Stir in Parmesan until melted.
+6. Return chicken and pasta to pan, toss to coat.
+7. Serve garnished with parsley.`,
+  prepTime: '30 mins'
+},
+
+{
+  id: '12',
+  title: 'Blueberry Oatmeal',
+  category: 'Breakfast',
+  image: require('../assets/blueberry-oatmeal.jpg'),
+  ingredients: [
+    '1/2 cup rolled oats',
+    '1 cup milk or water',
+    '1/2 cup fresh or frozen blueberries',
+    '1 tbsp maple syrup or honey',
+    '1/4 tsp cinnamon',
+    'Pinch of salt',
+    'Nuts or chia seeds (optional)'
+  ],
+  instructions: `1. In a small saucepan, combine oats, milk, salt, and cinnamon.
+2. Cook over medium heat, stirring often, until thick (5–7 mins).
+3. Stir in blueberries and cook for 2 more minutes.
+4. Pour into a bowl and drizzle with honey or maple syrup.
+5. Top with nuts or chia seeds if desired.`,
+  prepTime: '10 mins'
+}
+,
+
+{
+  id: '13',
   title: 'Strawberry Cheesecake',
   category: 'Desserts',
   image: require('../assets/strawberry-cheesecake.jpg'),
@@ -250,27 +292,7 @@ export const RECIPES = [
 },
 
 {
-  id: '12',
-  title: 'Lemon Mint Cooler',
-  category: 'Drinks',
-  image: require('../assets/lemon-mint.jpg'),
-  ingredients: [
-    '2 lemons, juiced',
-    '1 tbsp sugar',
-    '1 cup cold water',
-    'Fresh mint leaves',
-    'Ice cubes',
-    'Lemon slices for garnish'
-  ],
-  instructions: `1. In a glass, mix lemon juice and sugar until dissolved.
-2. Add cold water and stir well.
-3. Add mint leaves and ice cubes.
-4. Garnish with lemon slices and serve chilled.`,
-  prepTime: '5 mins'
-},
-
-{
-  id: '13',
+  id: '14',
   title: 'Iced Mocha Latte',
   category: 'Drinks',
   image: require('../assets/iced-mocha.jpg'),
@@ -289,7 +311,7 @@ export const RECIPES = [
 },
 
 {
-  id: '14',
+  id: '15',
   title: 'Bruschetta',
   category: 'Appetizers',
   image: require('../assets/bruschetta.jpg'),
@@ -310,26 +332,5 @@ export const RECIPES = [
   prepTime: '15 mins'
 }
 ,
-{
-  id: '15',
-  title: 'Mozzarella Sticks',
-  category: 'Appetizers',
-  image: require('../assets/mozzarella-sticks.jpg'),
-  ingredients: [
-    '12 mozzarella sticks',
-    '1/2 cup flour',
-    '2 eggs, beaten',
-    '1 cup breadcrumbs',
-    '1/2 tsp garlic powder',
-    '1/2 tsp Italian seasoning',
-    'Oil for frying',
-    'Marinara sauce for dipping'
-  ],
-  instructions: `1. Coat mozzarella sticks in flour, dip in egg, then breadcrumbs.
-2. Repeat for a thicker crust.
-3. Freeze for 30 minutes.
-4. Heat oil and fry until golden brown (2–3 mins).
-5. Drain and serve with marinara sauce.`,
-  prepTime: '40 mins (includes freezing)'
-}
+
 ];
